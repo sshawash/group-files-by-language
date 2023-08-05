@@ -1,7 +1,7 @@
-Group Files by Language Scripts
+# Group Files by Language Scripts
 
-Description:
-The three scripts take a folder containing text files with filenames in the format <language>-<sequence_number>.txt, and groups the files into sub-folders based on the language name.
+## Description:
+The three scripts take a folder containing text files with filenames in the format ```<language>-<sequence_number>.txt```, and groups the files into sub-folders based on the language name.
 
 Example:
 A folder with the files:
@@ -20,7 +20,7 @@ will end up with the following structure after running the scripts:
         - english-1.txt
         - english-2.txt
 
-Instructions:
+## Instructions:
 - Clone the repo & cd into the directory.
 - Run any script, but make sure to pass the directory path containing the files.
-  ex: sh rsync.sh ~/one-k-files
+  ex: ```sh rsync.sh ~/one-k-files```
